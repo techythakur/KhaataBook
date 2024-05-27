@@ -13,6 +13,7 @@ const showBtn = document.querySelector(".showBtn");
 
 
 const handleShowToggle = (e) => {
+    console.log("Working Login");
     if (showPassword.textContent === "SHOW"){
         showPassword.textContent="HIDE";
         passwordField.setAttribute("type", "text");
